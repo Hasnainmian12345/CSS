@@ -3,13 +3,54 @@ html {
   width: 100%;
 }
 
-body {
-  background-color: lightyellow;
-  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
-  font-size: 10px;
-}
+body{font-size: 10px;}
+nav{
+      display: block;font-family: sans-serif;font-size: 1rem;
+      background-color:whitesmoke;text-align: center;
+    }
 
-a img{width: 10%;position: relative;top:20px;}
+    nav a {
+      color: balck;
+      text-decoration: none;margin-right: 15%;
+      padding: 15px 15px;line-height: 50px;
+    }
+
+    nav a:hover {
+      background-color: greenyellow;
+    }
+
+.current{font-variant:small-caps; background-color:red;}
+    /* Dropdown container */
+    .dropdown {
+      position:relative;
+    }
+
+    .dropdown-content {
+      display: none;
+      position: absolute;
+      background-color:whitesmoke;
+      min-width: 150px;
+      box-shadow: 0px 8px 16px rgba(0, 0, 0, 0.2);
+      z-index: 1;
+    }
+
+    .dropdown-content a {
+      color:darkslateblue;
+      padding: 10px 15px;
+      display: block;
+      text-decoration: none;
+    }
+
+    .dropdown-content a:hover {
+      background-color: greenyellow;
+    }
+
+    /* Show dropdown on hover */
+    .dropdown:hover .dropdown-content {
+      display: block;
+    }
+main{font-family:sans-serif;color:black;font-size:1.0rem;}
+h1{font-family: sans-serif; font-size: 1.5rem;color:blueviolet}
 
 .skip-link {
   position: static;
@@ -28,45 +69,4 @@ a img{width: 10%;position: relative;top:20px;}
   left: 0;
   outline: 2px solid #fff;
 }
-header {
-  display:flex;flex-wrap: wrap;width: 100%;height: 50px;
-  background-color:whitesmoke;;
-}
-
-
-header nav {display: inline-block; margin: 100px;font-family: sans-serif; font-size: 2rem;}
-main p {
-  background-color:yellow;
-  color: #1d1b1b;
-  font-style: italic;
-  font-family: calibri;
-  line-height: 4cap;
-}
-.grid {display:grid;grid-template-columns:40% 40%;justify-content: center;align-items: baseline;row-gap: 5px;}
-.grid img{width:100%;}
-.park {display:grid;grid-template-columns:20% 20% 20% 20%;justify-content: center;align-items: baseline;row-gap: 5px;}
-.park img{width:200px;}
-footer {
-  display: inline-block;
-  width: 100%;
-  text-align: justify;
-  background-color: grey;
-  line-height: 1px;
-}
-
-image {
-  display: inline-block;
-  background-color: grey;
-  height: 5%;
-
-
-}
-
-main {
-  background-color:yellow;
-  font-size: 15px;
-}
-
-
-
 
