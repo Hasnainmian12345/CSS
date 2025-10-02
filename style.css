@@ -22,7 +22,7 @@ body {
 }
 a img{width: 10%;position: relative;top:20px;}
 
-.skip-link {
+a {
   position: absolute;
   top: -100px;
   left: 0;
@@ -33,7 +33,7 @@ a img{width: 10%;position: relative;top:20px;}
   z-index: 100;
 }
 
-.skip-link:focus {
+a:focus {
   position: static;
   top: 0;
   left: 0;
