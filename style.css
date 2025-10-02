@@ -21,7 +21,7 @@ body {
   font-size: 1cap;
 }
 a img{width: 10%;position: relative;top:20px;}
-
+a:focus-visible{outline: 2px solid #FF5733; border-color: #FF5733;}
 nav {
   font-size: 25px;
   display: inline-block;width: 80%;
