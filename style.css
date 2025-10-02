@@ -21,7 +21,25 @@ body {
   font-size: 1cap;
 }
 a img{width: 10%;position: relative;top:20px;}
-a:focus-visible{outline: 2px solid #FF5733; border-color: #FF5733;}
+
+.skip-link {
+  position: absolute;
+  top: -100px;
+  left: 0;
+  background: #000;
+  color: #fff;
+  padding: 10px;
+  text-decoration: none;
+  z-index: 100;
+}
+
+.skip-link:focus {
+  position: static;
+  top: 0;
+  left: 0;
+  outline: 2px solid #fff;
+}
+
 nav {
   font-size: 25px;
   display: inline-block;width: 80%;
