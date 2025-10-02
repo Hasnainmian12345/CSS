@@ -1,0 +1,85 @@
+html {
+  height: 100%;
+  width: 100%;
+}
+
+h1 {
+  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+  font-size: 25px;
+  color: #8B0000;
+  background-color: #F0E68C;
+  text-align: center;
+  display: block;
+  padding: 5px;
+  line-height: 10px;
+
+}
+
+body {
+  background-color: lightyellow;
+  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+  font-size: 1cap;
+}
+a img{width: 10%;position: relative;top:20px;}
+
+nav {
+  font-size: 25px;
+  display: inline-block;width: 80%;
+  font-family: verdana;
+  color: #80007b;
+  background-color: hotpink;
+}
+
+/*
+li {
+  display: inline-block;
+  width: 30%;
+  gap: 30%;
+} */
+li {
+  display: inline-block;
+  width: 30%;
+  gap: 30%;
+} 
+main p {
+  background-color:yellow;
+  color: #1d1b1b;
+  font-style: italic;
+  font-family: calibri;
+  line-height: 4cap;
+}
+.grid {display:grid;grid-template-columns:40% 40%;justify-content: center;align-items: baseline;row-gap: 5px;}
+.grid img{width:100%;}
+.park {display:grid;grid-template-columns:20% 20% 20% 20%;justify-content: center;align-items: baseline;row-gap: 5px;}
+.park img{width:200px;}
+footer {
+  display: inline-block;
+  width: 100%;
+  text-align: justify;
+  background-color: grey;
+  line-height: 1px;
+}
+
+image {
+  display: inline-block;
+  background-color: grey;
+  height: 5%;
+
+
+}
+
+main {
+  background-color:yellow;
+  font-size: 15px;
+}
+
+
+
+
+header {
+  display:flex;flex-wrap: wrap;justify-content: center;
+  background-color: #bcb724;
+  line-height: 25pt;
+  text-align: center;
+  background-image: url(Images/falling_petals.png);
+}
