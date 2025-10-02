@@ -23,7 +23,7 @@ body {
 a img{width: 10%;position: relative;top:20px;}
 
 .skip-link {
-  position: absolute;
+  position: static;
   top: -100px;
   left: 0;
   background: #000;
@@ -34,7 +34,7 @@ a img{width: 10%;position: relative;top:20px;}
 }
 
 .skip-link:focus {
-  position: static;
+  position: absolute;
   top: 0;
   left: 0;
   outline: 2px solid #fff;
